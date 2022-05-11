@@ -1,5 +1,26 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300;400;700&display=swap');
 
 * {
-    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+    font-family: 'Dosis';
+}
+
+html, body {
+    background-color: #888;
+}
+
+header {
+    background-color: black;
+    color: white;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+a, a:hover {
+    text-decoration: none;
+    color: unset;
 }
