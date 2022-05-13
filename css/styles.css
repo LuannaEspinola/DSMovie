@@ -207,9 +207,9 @@ a, a:hover {
     border-color: rgb(32, 32, 32);
 }
 
-.dsmovie-pagination-box button:disabled img {
-    /*filter:  unset;*/
-}
+/*.dsmovie-pagination-box button:disabled img {
+    /*filter:  unset;
+}*/
 
 .dsmovie-flip-horizontal {
     transform: rotate(180deg);
